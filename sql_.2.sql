@@ -160,7 +160,9 @@ salary_id int not null
 );
 
 ALTER table employee_salary RENAME COLUMN id_employee TO employee_id;
--- 9) Наполнить таблицу employee_salary 40 строками. В 10 строк из 40 вставить несуществующие employee_id
+
+-- 9) Наполнить таблицу employee_salary 40 строками. 
+-- В 10 строк из 40 вставить несуществующие employee_id
 
 insert into employee_salary (id, employee_id, salary_id)
 values (default, 80, 1),
