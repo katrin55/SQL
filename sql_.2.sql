@@ -1,5 +1,5 @@
--- 1) Создать таблицу employees
--- id. serial,  primary key,
+-- 1) Г‘Г®Г§Г¤Г ГІГј ГІГ ГЎГ«ГЁГ¶Гі employees
+-- id.serial,  primary key,
 -- employee_name. Varchar(50), not null
 
 create table employees (
@@ -7,81 +7,81 @@ id serial primary key,
 employee_name varchar(50) not null
 );
 
--- 2) Наполнить таблицу employee 70 строками.
+-- 2) ГЌГ ГЇГ®Г«Г­ГЁГІГј ГІГ ГЎГ«ГЁГ¶Гі employee 70 Г±ГІГ°Г®ГЄГ Г¬ГЁ.
 
 insert into employees (id, employee_name)
-values (default, 'Иванов Иван'),
-	   (default, 'Петрова Александра'),
-	   (default, 'Сергеев Петр'),
-	   (default, 'Анохин Андрей'),
-	   (default, 'Петрова Александра'),
-	   (default, 'Гончаров Максим'),
-	   (default, 'Панков Антон'),
-	   (default, 'Доздрова Александра'),
-	   (default, 'Орлов Юрий'),
-	   (default, 'Стафеев Игорь'),
-	   (default, 'Галухин Алексей'),
-	   (default, 'Шевченко Инна'),
-	   (default, 'Собашников Александр'),	
-	   (default, 'Филимонов Антон'),	
-	   (default, 'Анюхова Ирина'),	
-	   (default, 'Янкова Юлия'),	
-	   (default, 'Максимова Валерия'),	
-	   (default, 'Занданова Анастасия'),	
-	   (default, 'Московский Анатолий'),	
-	   (default, 'Дорофев Иван'),
-	   (default, 'Сдакова Елена'),	
-	   (default, 'Кузнецова Ольга'),	
-	   (default, 'Кулибин Анатолий'),	
-	   (default, 'Сметанин Вячеслав'),	
-	   (default, 'Иванова Светлана'),	
-	   (default, 'Александрова Анна'),	
-	   (default, 'Федорова Олеся'),	
-	   (default, 'Дыгай Ольга'),	
-	   (default, 'Григорьева Юлия'),	
-	   (default, 'Твердохлебова Юлия'),
-	   (default, 'Самсонова Виктория'),	
-	   (default, 'Швецов Илья'),	
-	   (default, 'Сидорова Анастасия'),	
-	   (default, 'Бурдуковский Юрий'),	
-	   (default, 'Машков Владимир'),	
-	   (default, 'Усиков Сергей'),	
-	   (default, 'Мытыга Павел'),	
-	   (default, 'Михайлова Елена'),	
-	   (default, 'Савченко Светлана'),	
-	   (default, 'Тютрина Марина'),	
-	   (default, 'Салихов Марсель'),	
-	   (default, 'Гудз Антон'),	
-	   (default, 'Жабин Георгий'),	
-	   (default, 'Сорокин Евгений'),	
-	   (default, 'Селин Александр'),	
-	   (default, 'Докиш Михаил'),	
-	   (default, 'Касымова Карина'),
-	   (default, 'Ктоян Анастасия'),
-	   (default, 'Григорьев Максим'),
-	   (default, 'Вылков Дмитрий'),
-	   (default, 'Татевасян Владислав'),
-	   (default, 'Дадонов Максим'),	
-	   (default, 'Петухов Алексей'),
-	   (default, 'Рыбин Александр'),
-	   (default, 'Рябинин Михаил'),
-	   (default, 'Булатов Александр'),
-	   (default, 'Главецкая Анна'),	
-	   (default, 'Коншина Наталья'),	
-	   (default, 'Суворов Петр'),
-	   (default, 'Бобровников Михаил'),
-	   (default, 'Никитина Юлия'),
-	   (default, 'Ванчикова Галина'),
-	   (default, 'Степанова Алла'),
-	   (default, 'Гончаров Антон'),
-	   (default, 'Чумаков Алексей'),
-	   (default, 'Быстров Алекандр'),
-	   (default, 'Чугаев Дмитрий'),
-	   (default, 'Кашина Галина'),
-	   (default, 'Маринина Наталья'),
-	   (default, 'Громов Владимир');
+values (default, 'Г€ГўГ Г­Г®Гў Г€ГўГ Г­'),
+	   (default, 'ГЏГҐГІГ°Г®ГўГ  ГЂГ«ГҐГЄГ±Г Г­Г¤Г°Г '),
+	   (default, 'Г‘ГҐГ°ГЈГҐГҐГў ГЏГҐГІГ°'),
+	   (default, 'ГЂГ­Г®ГµГЁГ­ ГЂГ­Г¤Г°ГҐГ©'),
+	   (default, 'ГЏГҐГІГ°Г®ГўГ  ГЂГ«ГҐГЄГ±Г Г­Г¤Г°Г '),
+	   (default, 'ГѓГ®Г­Г·Г Г°Г®Гў ГЊГ ГЄГ±ГЁГ¬'),
+	   (default, 'ГЏГ Г­ГЄГ®Гў ГЂГ­ГІГ®Г­'),
+	   (default, 'Г„Г®Г§Г¤Г°Г®ГўГ  ГЂГ«ГҐГЄГ±Г Г­Г¤Г°Г '),
+	   (default, 'ГЋГ°Г«Г®Гў ГћГ°ГЁГ©'),
+	   (default, 'Г‘ГІГ ГґГҐГҐГў Г€ГЈГ®Г°Гј'),
+	   (default, 'ГѓГ Г«ГіГµГЁГ­ ГЂГ«ГҐГЄГ±ГҐГ©'),
+	   (default, 'ГГҐГўГ·ГҐГ­ГЄГ® Г€Г­Г­Г '),
+	   (default, 'Г‘Г®ГЎГ ГёГ­ГЁГЄГ®Гў ГЂГ«ГҐГЄГ±Г Г­Г¤Г°'),	
+	   (default, 'Г”ГЁГ«ГЁГ¬Г®Г­Г®Гў ГЂГ­ГІГ®Г­'),	
+	   (default, 'ГЂГ­ГѕГµГ®ГўГ  Г€Г°ГЁГ­Г '),	
+	   (default, 'ГџГ­ГЄГ®ГўГ  ГћГ«ГЁГї'),	
+	   (default, 'ГЊГ ГЄГ±ГЁГ¬Г®ГўГ  Г‚Г Г«ГҐГ°ГЁГї'),	
+	   (default, 'Г‡Г Г­Г¤Г Г­Г®ГўГ  ГЂГ­Г Г±ГІГ Г±ГЁГї'),	
+	   (default, 'ГЊГ®Г±ГЄГ®ГўГ±ГЄГЁГ© ГЂГ­Г ГІГ®Г«ГЁГ©'),	
+	   (default, 'Г„Г®Г°Г®ГґГҐГў Г€ГўГ Г­'),
+	   (default, 'Г‘Г¤Г ГЄГ®ГўГ  Г…Г«ГҐГ­Г '),	
+	   (default, 'ГЉГіГ§Г­ГҐГ¶Г®ГўГ  ГЋГ«ГјГЈГ '),	
+	   (default, 'ГЉГіГ«ГЁГЎГЁГ­ ГЂГ­Г ГІГ®Г«ГЁГ©'),	
+	   (default, 'Г‘Г¬ГҐГІГ Г­ГЁГ­ Г‚ГїГ·ГҐГ±Г«Г Гў'),	
+	   (default, 'Г€ГўГ Г­Г®ГўГ  Г‘ГўГҐГІГ«Г Г­Г '),	
+	   (default, 'ГЂГ«ГҐГЄГ±Г Г­Г¤Г°Г®ГўГ  ГЂГ­Г­Г '),	
+	   (default, 'Г”ГҐГ¤Г®Г°Г®ГўГ  ГЋГ«ГҐГ±Гї'),	
+	   (default, 'Г„Г»ГЈГ Г© ГЋГ«ГјГЈГ '),	
+	   (default, 'ГѓГ°ГЁГЈГ®Г°ГјГҐГўГ  ГћГ«ГЁГї'),	
+	   (default, 'Г’ГўГҐГ°Г¤Г®ГµГ«ГҐГЎГ®ГўГ  ГћГ«ГЁГї'),
+	   (default, 'Г‘Г Г¬Г±Г®Г­Г®ГўГ  Г‚ГЁГЄГІГ®Г°ГЁГї'),	
+	   (default, 'ГГўГҐГ¶Г®Гў Г€Г«ГјГї'),	
+	   (default, 'Г‘ГЁГ¤Г®Г°Г®ГўГ  ГЂГ­Г Г±ГІГ Г±ГЁГї'),	
+	   (default, 'ГЃГіГ°Г¤ГіГЄГ®ГўГ±ГЄГЁГ© ГћГ°ГЁГ©'),	
+	   (default, 'ГЊГ ГёГЄГ®Гў Г‚Г«Г Г¤ГЁГ¬ГЁГ°'),	
+	   (default, 'Г“Г±ГЁГЄГ®Гў Г‘ГҐГ°ГЈГҐГ©'),	
+	   (default, 'ГЊГ»ГІГ»ГЈГ  ГЏГ ГўГҐГ«'),	
+	   (default, 'ГЊГЁГµГ Г©Г«Г®ГўГ  Г…Г«ГҐГ­Г '),	
+	   (default, 'Г‘Г ГўГ·ГҐГ­ГЄГ® Г‘ГўГҐГІГ«Г Г­Г '),	
+	   (default, 'Г’ГѕГІГ°ГЁГ­Г  ГЊГ Г°ГЁГ­Г '),	
+	   (default, 'Г‘Г Г«ГЁГµГ®Гў ГЊГ Г°Г±ГҐГ«Гј'),	
+	   (default, 'ГѓГіГ¤Г§ ГЂГ­ГІГ®Г­'),	
+	   (default, 'Г†Г ГЎГЁГ­ ГѓГҐГ®Г°ГЈГЁГ©'),	
+	   (default, 'Г‘Г®Г°Г®ГЄГЁГ­ Г…ГўГЈГҐГ­ГЁГ©'),	
+	   (default, 'Г‘ГҐГ«ГЁГ­ ГЂГ«ГҐГЄГ±Г Г­Г¤Г°'),	
+	   (default, 'Г„Г®ГЄГЁГё ГЊГЁГµГ ГЁГ«'),	
+	   (default, 'ГЉГ Г±Г»Г¬Г®ГўГ  ГЉГ Г°ГЁГ­Г '),
+	   (default, 'ГЉГІГ®ГїГ­ ГЂГ­Г Г±ГІГ Г±ГЁГї'),
+	   (default, 'ГѓГ°ГЁГЈГ®Г°ГјГҐГў ГЊГ ГЄГ±ГЁГ¬'),
+	   (default, 'Г‚Г»Г«ГЄГ®Гў Г„Г¬ГЁГІГ°ГЁГ©'),
+	   (default, 'Г’Г ГІГҐГўГ Г±ГїГ­ Г‚Г«Г Г¤ГЁГ±Г«Г Гў'),
+	   (default, 'Г„Г Г¤Г®Г­Г®Гў ГЊГ ГЄГ±ГЁГ¬'),	
+	   (default, 'ГЏГҐГІГіГµГ®Гў ГЂГ«ГҐГЄГ±ГҐГ©'),
+	   (default, 'ГђГ»ГЎГЁГ­ ГЂГ«ГҐГЄГ±Г Г­Г¤Г°'),
+	   (default, 'ГђГїГЎГЁГ­ГЁГ­ ГЊГЁГµГ ГЁГ«'),
+	   (default, 'ГЃГіГ«Г ГІГ®Гў ГЂГ«ГҐГЄГ±Г Г­Г¤Г°'),
+	   (default, 'ГѓГ«Г ГўГҐГ¶ГЄГ Гї ГЂГ­Г­Г '),	
+	   (default, 'ГЉГ®Г­ГёГЁГ­Г  ГЌГ ГІГ Г«ГјГї'),	
+	   (default, 'Г‘ГіГўГ®Г°Г®Гў ГЏГҐГІГ°'),
+	   (default, 'ГЃГ®ГЎГ°Г®ГўГ­ГЁГЄГ®Гў ГЊГЁГµГ ГЁГ«'),
+	   (default, 'ГЌГЁГЄГЁГІГЁГ­Г  ГћГ«ГЁГї'),
+	   (default, 'Г‚Г Г­Г·ГЁГЄГ®ГўГ  ГѓГ Г«ГЁГ­Г '),
+	   (default, 'Г‘ГІГҐГЇГ Г­Г®ГўГ  ГЂГ«Г«Г '),
+	   (default, 'ГѓГ®Г­Г·Г Г°Г®Гў ГЂГ­ГІГ®Г­'),
+	   (default, 'Г—ГіГ¬Г ГЄГ®Гў ГЂГ«ГҐГЄГ±ГҐГ©'),
+	   (default, 'ГЃГ»Г±ГІГ°Г®Гў ГЂГ«ГҐГЄГ Г­Г¤Г°'),
+	   (default, 'Г—ГіГЈГ ГҐГў Г„Г¬ГЁГІГ°ГЁГ©'),
+	   (default, 'ГЉГ ГёГЁГ­Г  ГѓГ Г«ГЁГ­Г '),
+	   (default, 'ГЊГ Г°ГЁГ­ГЁГ­Г  ГЌГ ГІГ Г«ГјГї'),
+	   (default, 'ГѓГ°Г®Г¬Г®Гў Г‚Г«Г Г¤ГЁГ¬ГЁГ°');
 	   
--- 3) Создать таблицу salary
+-- 3) Г‘Г®Г§Г¤Г ГІГј ГІГ ГЎГ«ГЁГ¶Гі salary
 -- id. Serial  primary key,
 -- monthly_salary. Int, not null
 
@@ -90,7 +90,7 @@ id serial primary key,
 monthly_salary int not null
 );
 
--- 4) Наполнить таблицу salary 15 строками
+-- 4) ГЌГ ГЇГ®Г«Г­ГЁГІГј ГІГ ГЎГ«ГЁГ¶Гі salary 15 Г±ГІГ°Г®ГЄГ Г¬ГЁ
 
 insert into salary (id, monthly_salary)
 values (default, 1000),
@@ -109,7 +109,7 @@ values (default, 1000),
 	   (default, 2300),
 	   (default, 2400);
 
--- 5) Создать таблицу roles
+-- 5) Г‘Г®Г§Г¤Г ГІГј ГІГ ГЎГ«ГЁГ¶Гі roles
 -- id. Serial  primary key,
 -- role_name. int, not null, unique
 
@@ -120,11 +120,11 @@ values (default, 1000),
 
 select * from roles;
 
--- 6) Поменять тип столба role_name с int на varchar(30)
+-- 6) ГЏГ®Г¬ГҐГ­ГїГІГј ГІГЁГЇ Г±ГІГ®Г«ГЎГ  role_name Г± int Г­Г  varchar(30)
 alter table roles 
 alter column role_name type varchar(30);
 
--- 7) Наполнить таблицу roles 20 строками
+-- 7) ГЌГ ГЇГ®Г«Г­ГЁГІГј ГІГ ГЎГ«ГЁГ¶Гі roles 20 Г±ГІГ°Г®ГЄГ Г¬ГЁ
 
 insert into roles (id, role_name)
 values (default, 'Junior Python developer'),
@@ -148,7 +148,7 @@ values (default, 'Junior Python developer'),
 	   (default, 'Middle Automation QA engineer'),
 	   (default, 'Senior Automation QA engineer');
 	   
--- 8) Создать таблицу employee_salary
+-- 8) Г‘Г®Г§Г¤Г ГІГј ГІГ ГЎГ«ГЁГ¶Гі employee_salary
 -- id. Serial  primary key,
 -- employee_id. Int, not null, unique
 -- salary_id. Int, not null  
@@ -160,7 +160,7 @@ salary_id int not null
 );
 
 ALTER table employee_salary RENAME COLUMN id_employee TO employee_id;
--- 9) Наполнить таблицу employee_salary 40 строками. В 10 строк из 40 вставить несуществующие employee_id
+-- 9) ГЌГ ГЇГ®Г«Г­ГЁГІГј ГІГ ГЎГ«ГЁГ¶Гі employee_salary 40 Г±ГІГ°Г®ГЄГ Г¬ГЁ. Г‚ 10 Г±ГІГ°Г®ГЄ ГЁГ§ 40 ГўГ±ГІГ ГўГЁГІГј Г­ГҐГ±ГіГ№ГҐГ±ГІГўГіГѕГ№ГЁГҐ employee_id
 
 insert into employee_salary (id, employee_id, salary_id)
 values (default, 80, 1),
@@ -204,10 +204,10 @@ values (default, 80, 1),
 	   (default, 29, 9),
 	   (default, 30, 10);
 	
--- 10) Создать таблицу roles_employee
+-- 10) Г‘Г®Г§Г¤Г ГІГј ГІГ ГЎГ«ГЁГ¶Гі roles_employee
 -- id. Serial  primary key,
--- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
--- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+-- employee_id. Int, not null, unique (ГўГ­ГҐГёГ­ГЁГ© ГЄГ«ГѕГ· Г¤Г«Гї ГІГ ГЎГ«ГЁГ¶Г» employees, ГЇГ®Г«ГҐ id)
+-- role_id. Int, not null (ГўГ­ГҐГёГ­ГЁГ© ГЄГ«ГѕГ· Г¤Г«Гї ГІГ ГЎГ«ГЁГ¶Г» roles, ГЇГ®Г«ГҐ id)
 	
 	 create table roles_employee (
 	 id serial primary key,
@@ -221,7 +221,7 @@ values (default, 80, 1),
 	 
 	select * from roles_employee;
 	
--- 11)  Наполнить таблицу roles_employee 40 строками
+-- 11)  ГЌГ ГЇГ®Г«Г­ГЁГІГј ГІГ ГЎГ«ГЁГ¶Гі roles_employee 40 Г±ГІГ°Г®ГЄГ Г¬ГЁ
 	
 insert into roles_employee (id, employee_id, role_id)
 values (default, 50, 1),
